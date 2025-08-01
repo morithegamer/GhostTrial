@@ -54,13 +54,13 @@ class GhostTrialApp(ctk.CTk):
         self.clear_button.grid(row=0, column=3, padx=10)
 
         self.tot_button = ctk.CTkButton(self.button_frame, text="🧪 Scan TOT Memory", command=self.scan_tot)
-        self.tot_button.pack(pady=5)
+        self.tot_button.grid(row=1, column=0, pady=5)
 
         self.ttr_button = ctk.CTkButton(self.button_frame, text="🎩 Scan TTR Memory", command=self.scan_ttr)
-        self.ttr_button.pack(pady=5)
+        self.ttr_button.grid(row=1, column=1, pady=5)
 
         self.ttcc_button = ctk.CTkButton(self.button_frame, text="🏢 Scan TTCC Memory", command=self.scan_ttcc)
-        self.ttcc_button.pack(pady=5)
+        self.ttcc_button.grid(row=1, column=2, pady=5)
 
         # === Output Log Box ===
         ctk.CTkLabel(self.main_frame, text="📜 Output Log", font=("Arial", 16)).pack()
