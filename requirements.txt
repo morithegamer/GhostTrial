@@ -1,0 +1,10 @@
+# requirements.txt
+# GhostTrials Project Dependencies
+customtkinter
+core
+memory_scanner
+honeypot
+pymem
+psutil
+tkinter
+# Additional dependencies may be required based on the specific game modules
